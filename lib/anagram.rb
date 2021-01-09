@@ -7,7 +7,7 @@ class Anagram
 
   def match(anagram)
     matchup_array = @word.split.sort
-    binding.pry
     puts matchup_array
+    binding.pry
   end
 end
