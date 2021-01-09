@@ -6,6 +6,6 @@ class Anagram
   end
 
   def match(anagram)
-    matchup_array = @word.sort
+    matchup_array = @word.sort(anagram)
   end
 end
